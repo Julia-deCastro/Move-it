@@ -5,6 +5,7 @@ import styles from "../src/styles/pages/Home.module.css";
 import { CompleteChallanges } from "../src/componentes/CompleteChallanges";
 import { Countdown } from "../src/componentes/Countdown";
 import { ChallengeBox } from "../src/componentes/ChallengeBox";
+import {CountdownProvider} from "../src/contexts/CountdownContext"
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
     <Head>
       <title>Início | move.it</title>
     </Head>
+
+    <CountdownProvider>
     <section>
       <div>
         <Porfile/>
@@ -26,6 +29,7 @@ export default function Home() {
 
       </div>
     </section>
+    </CountdownProvider>
   </div>
   );
 }
