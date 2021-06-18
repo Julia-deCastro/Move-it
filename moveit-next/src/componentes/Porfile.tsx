@@ -7,7 +7,7 @@ export function Porfile(){
         <div>
             <strong>Júlia de Castro</strong>
             <p>
-                <img src="icons/level.jpg" alt="Level"/>
+                <img src="icons/level.svg" alt="Level"/>
                 Level 1
             </p>
         </div>
