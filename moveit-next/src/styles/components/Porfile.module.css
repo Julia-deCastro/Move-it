@@ -1,0 +1,32 @@
+.porfileContainer{
+    display: flex;
+    align-items: center;
+
+}
+
+.porfileContainer > img {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+}
+
+.porfileContainer div {
+    margin-left: 1.5rem;
+}
+
+.porfileContainer div strong{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--title);
+}
+
+.porfileContainer div p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.porfileContainer div p img {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+}
