@@ -3,7 +3,7 @@
     background: var(--white);
     border-radius: 5px;
     box-shadow: 0 0 60px rgba(0,0,0,0.05);
-    padding: 1.5rem 2 rem;
+    padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,6 +75,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    margin-top: 10px;
 }
 
 .challengeActive footer button{

@@ -17,7 +17,7 @@
     padding: 5rem 0 5rem 0;
 }
 
-@media (max-width: 600px){
+@media (max-width: 650px){
 
     .container section{
     display: flex;

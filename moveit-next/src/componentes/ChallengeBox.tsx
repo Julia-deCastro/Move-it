@@ -16,6 +16,7 @@ export function ChallengeBox (){
     function handleChalangeFailed(){
         resetChallenge();
         resetCountdown();
+        new Audio('/failed.mp3').play();
     }
 
 
