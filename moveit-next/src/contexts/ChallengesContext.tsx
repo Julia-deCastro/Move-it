@@ -61,6 +61,7 @@ export function ChallengesProvider({children, ...rest}: ChallengesProviderProps)
     function levelUp (){
     setLevel(level+1);
     setisLevelUpModalOpen(true);
+    new Audio('/notification.mp3').play();
     }
    
     function startNewChallenge(){

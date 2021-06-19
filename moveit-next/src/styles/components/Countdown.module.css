@@ -1,8 +1,8 @@
 .countdownContainer{
     display: flex;
     align-items: center;
-    font-family: Rajdhani;
-    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
     color: var(--title);
 }
 

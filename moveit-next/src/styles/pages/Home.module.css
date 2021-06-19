@@ -14,7 +14,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 6.25rem;
     align-content: center;
-    padding: 10rem 0;
+    padding: 5rem 0 5rem 0;
 }
 
 @media (max-width: 600px){
