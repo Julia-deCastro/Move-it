@@ -16,3 +16,11 @@
     align-content: center;
     padding: 10rem 0;
 }
+
+@media (max-width: 600px){
+
+    .container section{
+    display: flex;
+    flex-direction: column;
+    }
+}
